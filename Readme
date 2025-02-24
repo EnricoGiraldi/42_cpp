@@ -1,0 +1,127 @@
+# 42 C++ Modules
+
+## Overview
+This repository contains my solutions for the **C++ Modules** of the **42 School** curriculum. The project consists of a series of exercises designed to provide an in-depth understanding of **Object-Oriented Programming (OOP)** in C++, covering topics such as encapsulation, inheritance, polymorphism, templates, memory management, and more.
+
+Each module introduces new concepts and gradually increases in complexity, following best practices and adhering to the C++98 standard (unless specified otherwise).
+
+---
+
+## Modules Breakdown
+Each module introduces a key aspect of C++ programming, as follows:
+
+### **Module 00 - Basics of C++**
+- Differences between C and C++
+- I/O streams (`std::cout`, `std::cin`)
+- The `namespace` keyword
+- The `class` and `struct` keywords
+- Member functions, constructors, and destructors
+- Access specifiers (`public`, `private`, `protected`)
+- The `new` and `delete` operators (dynamic memory allocation)
+
+### **Module 01 - Memory and References**
+- Reference variables (`&`)
+- Pointers (`*`, `->`)
+- Memory allocation and deallocation (`new`, `delete`)
+- The difference between stack and heap memory
+- File streams (`ifstream`, `ofstream`)
+
+### **Module 02 - Ad-Hoc Polymorphism & Operator Overloading**
+- Function overloading
+- Operator overloading (`+`, `-`, `<<`, `>>`, `=`)
+- Canonical class form (orthodox canonical form)
+
+### **Module 03 - Inheritance & Subclassing**
+- Inheritance (`public`, `private`, `protected`)
+- Base and derived classes
+- Virtual functions
+- Abstract classes and pure virtual functions
+- The importance of destructors in inheritance
+
+### **Module 04 - Interfaces and Polymorphism**
+- Virtual classes and methods
+- Abstract base classes (interfaces)
+- Runtime polymorphism
+- The `dynamic_cast` keyword
+
+### **Module 05 - Repetition and Exceptions**
+- Exception handling (`try`, `catch`, `throw`)
+- Custom exception classes
+- The Standard Template Library (STL) basics
+
+### **Module 06 - C++ Containers and STL**
+- The Standard Template Library (STL)
+- Containers (`vector`, `list`, `map`, `queue`, etc.)
+- Iterators
+- Algorithms (`sort`, `find`, `count`, etc.)
+
+### **Module 07 - Templates**
+- Function templates
+- Class templates
+- Template specialization and partial specialization
+- Advantages of templates in generic programming
+
+### **Module 08 - Templated Containers**
+- Implementing a templated container
+- Comparison with STL containers
+- Best practices for templated class design
+
+---
+
+## Compilation & Usage
+### **Compiling the Code**
+Each module contains different exercises with separate `Makefiles`. To compile a specific exercise, navigate to the corresponding directory and run:
+
+```sh
+make
+```
+
+To clean up compiled files:
+
+```sh
+make clean   # Removes object files
+make fclean  # Removes executables
+make re      # Cleans and recompiles
+```
+
+### **Running an Exercise**
+After compilation, execute the program with:
+
+```sh
+./executable_name
+```
+
+---
+
+## Code Style & Guidelines
+- The code follows **42 School's Norm** (except for C++ syntax flexibility).
+- No external libraries are used unless explicitly required.
+- Memory leaks are avoided using proper allocation and deallocation.
+- The principle of **RAII (Resource Acquisition Is Initialization)** is respected.
+
+---
+
+## Dependencies
+Ensure you have a working **C++ compiler** installed:
+- GCC (`g++`) version 11 or higher, or
+- Clang (`clang++`) version 14 or higher
+
+You can check your compiler version with:
+```sh
+g++ --version
+clang++ --version
+```
+
+---
+
+## License
+This project is under the **42 School curriculum** and follows its guidelines. Feel free to use and modify the code, but adhere to academic integrity policies.
+
+---
+
+## Contact
+If you have any questions, feel free to reach out:
+- **GitHub:** [YourUsername](https://github.com/YourUsername)
+- **Email:** your.email@example.com
+
+Happy coding! 🚀
